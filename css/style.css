@@ -1090,7 +1090,7 @@ body{
     
 }
 
-@media (max-width: 400px) {
+@media (max-width: 400px) and (min-width: 381px) {
     *{
         overflow-x: hidden;
     }
@@ -1223,6 +1223,225 @@ body{
         /* left: -25%; */
         width: auto;
         margin-left: -50px;
+        margin-right: -60px;
+    }
+    
+
+    /*skills*/
+    .subtitle{
+        font-size: 50px;
+        text-align: center;
+    }
+    .container1 {
+        width: 600px;
+        max-height: 500px;
+        padding: 20px;
+        margin-left: 50px;
+    }
+    .container2 {
+        width: 600px;
+        max-height: 500px;
+        padding: 10px;
+        margin-left: 0px;
+    }
+    .radial-bar .text{
+        left: 25%;
+    }
+    .bar .info .addhtml::before{
+        content: "90%";
+    }
+    .bar .info .addcss::before{
+        content: "80%";
+    }
+    .bar .info .addpy::before{
+        content: "75%";
+    }
+    .bar .info .addjava::before{
+        content: "50%";
+    }
+    .bar .info .addc::before{
+        content: "50%";
+    }
+
+    /*project*/
+    .main-text {
+        padding-top: 20px;
+        margin-top: 10px;
+        padding-bottom: 50px;
+    }
+    .main-text h2 {
+        font-size: 50px;
+        padding-bottom: 15px;
+    }
+    .layer p {
+        line-height: normal;
+    }
+
+    /*service*/
+    .sub-title {
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+    
+
+    /*contact*/
+    .contacts h2{
+        font-size: 50px;
+    }
+    .contact-list i{
+        font-size: 13px;
+        padding: 5px 5px 0 0;
+    }
+    
+    .top{
+        position: fixed;
+        bottom: 2rem;
+        left: 1rem;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        opacity: 0;
+        transition: all .4s;
+    }
+    .top i{
+        color: #000;
+    }
+}
+
+@media (max-width: 380px) {
+    *{
+        overflow-x: hidden;
+    }
+    .header{
+        display:block;
+    }
+    .logo {
+        position: relative;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .logo::after{
+        content: "\a";
+        white-space: pre;
+    }
+    .navbar a {
+        font-size: 13px;
+        font-weight: 200;
+        margin-left: 0px;
+        padding: 10px 4px 0 0;
+    }
+    .navbar a::after{
+        content: "\a";
+        white-space: pre;
+    }
+
+    /*home*/
+    .home{
+        width: 100%;
+        align-items: normal;
+        padding-top: 40%;
+        padding-bottom: 0;
+    }
+    
+    .home-content h1 {
+        
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    .home-content a{
+        position: relative;
+        left: 5%;
+    }
+
+    .home-sci {
+        position: relative;
+        left: 5%;
+    }
+    
+    .home-content h3 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .home-content p {
+        font-size: 15px;
+        font-weight: 200;
+    }
+    
+    .home-content p span {
+        font-size: 15px;
+        font-weight: 200;
+    }
+    .btn-box:hover {
+        box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 15pc cyan, 0 0 20px cyan, 0 0 25px cyan;
+    }
+    .img{
+        max-width: 300px;
+        position: relative;
+        left: 0%;
+        top: 2%;
+        opacity: 0.5;
+        padding-bottom: 30px;
+        padding-left: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    /*about*/
+    .about{
+        padding-bottom: 20px;
+        min-height: auto;
+    }
+    .about-text h2 {
+        font-size: 30px;
+        letter-spacing: 5px;
+    }
+    
+    .about-text p {
+        font-size: 15px;
+        line-height: normal;
+        letter-spacing: 0px;
+        margin-bottom: 4rem;
+        text-align: left;
+    }
+    .abtbtn-box:hover {
+        box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 15pc cyan, 0 0 20px cyan, 0 0 25px cyan;
+    }
+
+    /* Education */
+    .edu-list div{
+        /* position: relative; */
+        padding: 10px;
+        margin-right: 70px;
+        width: 270px;
+        /* width: 100%; */
+    }
+
+    .education-content{
+        position: relative;
+        /* left: -25%; */
+        width: auto;
+        margin-left: -70px;
+        margin-right: -60px;
+    }
+
+    /* experience */
+    .exp-list div{
+        /* position: relative; */
+        padding: 10px;
+        margin-right: 70px;
+        width: 270px;
+        /* width: 100%; */
+    }
+
+    .experience-content{
+        position: relative;
+        /* left: -25%; */
+        width: auto;
+        margin-left: -70px;
         margin-right: -60px;
     }
     
