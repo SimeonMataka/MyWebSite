@@ -925,22 +925,22 @@ body{
     
     .home-content h3 {
         font-size: 30px;
-        font-weight: 300;
+        font-weight: 500;
     }
     
     .home-content p {
-        font-size: 12px;
+        font-size: 16px;
         font-weight: 200;
     }
     
-    .home-content h4 span {
+    .home-content p span {
         font-size: 18px;
         font-weight: 200;
     }
     .img{
         max-width: 400px;
         position: relative;
-        left: -10%;
+        left: 5%;
         top: 2%;
         padding-bottom: 30px;
         padding-left: 0;
@@ -949,6 +949,49 @@ body{
     .btn-box:hover {
         box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 15pc cyan, 0 0 20px cyan, 0 0 25px cyan;
     }
+
+    .home-content a{
+        position: relative;
+        left: 20%;
+    }
+
+    .home-sci {
+        position: relative;
+        left: 5%;
+    }
+
+    /* Education */
+    .edu-list div{
+        /* position: relative; */
+        padding: 10px;
+        margin-right: 70px;
+        width: 300px;
+        /* width: 100%; */
+    }
+
+    .education-content{
+        position: relative;
+        /* left: -25%; */
+        width: auto;
+        margin-left: -60px;
+    }
+
+    /* experience */
+    .exp-list div{
+         /* position: relative; */
+         padding: 10px;
+         margin-right: 70px;
+         width: 300px;
+         /* width: 100%; */
+    }
+
+    .experience-content{
+        position: relative;
+        /* left: -25%; */
+        width: auto;
+        margin-left: -60px;
+    }
+    
     /*about*/
     .about{
         padding-bottom: 20px;
@@ -1018,7 +1061,7 @@ body{
     }
     /*service*/
     .sub-title {
-        font-size: 50px;
+        font-size: 40px;
         padding-bottom: 50px;
     }
     .prj-list div{
@@ -1153,7 +1196,8 @@ body{
     .edu-list div{
         /* position: relative; */
         padding: 10px;
-        margin-right: 90px;
+        margin-right: 70px;
+        width: 280px;
         /* width: 100%; */
     }
 
@@ -1161,13 +1205,16 @@ body{
         position: relative;
         /* left: -25%; */
         width: auto;
+        margin-left: -50px;
+        margin-right: -60px;
     }
 
     /* experience */
     .exp-list div{
-        /* position: relative; */
+         /* position: relative; */
         padding: 10px;
-        margin-right: 90px;
+        margin-right: 70px;
+        width: 280px;
         /* width: 100%; */
     }
 
@@ -1175,6 +1222,8 @@ body{
         position: relative;
         /* left: -25%; */
         width: auto;
+        margin-left: -50px;
+        margin-right: -60px;
     }
     
 
