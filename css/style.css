@@ -56,7 +56,7 @@ body{
 
 .navbar a:hover,
 .navbar a.active{
-    color: #00abf0;
+    color: #0ef/*#00abf0*/;
 }
 
 /* home */
