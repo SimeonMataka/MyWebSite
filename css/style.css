@@ -1019,13 +1019,19 @@ body{
         content: "80%";
     }
     .bar .info .addpy::before{
-        content: "75%";
+        content: "92%";
     }
     .bar .info .addjava::before{
-        content: "50%";
+        content: "70%";
     }
     .bar .info .addc::before{
-        content: "50%";
+        content: "85%";
+    }
+    .bar .info .addphp::before{
+        content: "82%";
+    }
+    .bar .info .addjavascript::before{
+        content: "69%";
     }
 }
 @media (max-width: 700px) and (min-width: 400px) {
@@ -1191,13 +1197,19 @@ body{
         content: "80%";
     }
     .bar .info .addpy::before{
-        content: "75%";
+        content: "92%";
     }
     .bar .info .addjava::before{
-        content: "50%";
+        content: "70%";
     }
     .bar .info .addc::before{
-        content: "50%";
+        content: "85%";
+    }
+    .bar .info .addphp::before{
+        content: "82%";
+    }
+    .bar .info .addjavascript::before{
+        content: "69%";
     }
 
     .tools {
@@ -1456,13 +1468,19 @@ body{
         content: "80%";
     }
     .bar .info .addpy::before{
-        content: "75%";
+        content: "92%";
     }
     .bar .info .addjava::before{
-        content: "50%";
+        content: "70%";
     }
     .bar .info .addc::before{
-        content: "50%";
+        content: "85%";
+    }
+    .bar .info .addphp::before{
+        content: "82%";
+    }
+    .bar .info .addjavascript::before{
+        content: "69%";
     }
 
     .tools {
@@ -1696,44 +1714,6 @@ body{
         margin-right: -60px;
     }
     
-
-    /*skills*/
-    .subtitle{
-        font-size: 50px;
-        text-align: center;
-    }
-    .container1 {
-        width: 600px;
-        max-height: 500px;
-        padding: 20px;
-        margin-left: 50px;
-    }
-    .container2 {
-        width: 600px;
-        max-height: 500px;
-        padding: 10px;
-        margin-left: 0px;
-    }
-    .radial-bar .text{
-        left: 25%;
-    }
-    .bar .info .addhtml::before{
-        content: "90%";
-    }
-    .bar .info .addcss::before{
-        content: "80%";
-    }
-    .bar .info .addpy::before{
-        content: "75%";
-    }
-    .bar .info .addjava::before{
-        content: "50%";
-    }
-    .bar .info .addc::before{
-        content: "50%";
-    }
-
-    
     /*skills*/
     .subtitle{
         font-size: 30px;
@@ -1761,13 +1741,19 @@ body{
         content: "80%";
     }
     .bar .info .addpy::before{
-        content: "75%";
+        content: "92%";
     }
     .bar .info .addjava::before{
-        content: "50%";
+        content: "70%";
     }
     .bar .info .addc::before{
-        content: "50%";
+        content: "85%";
+    }
+    .bar .info .addphp::before{
+        content: "82%";
+    }
+    .bar .info .addjavascript::before{
+        content: "69%";
     }
 
     .tools {
