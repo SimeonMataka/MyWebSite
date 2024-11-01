@@ -1861,3 +1861,42 @@ body{
         color: #000;
     }
 }
+
+
+.projects {
+    padding: 60px;
+    background-color: #f9f9f9;
+}
+
+.projects h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 28px;
+    color: #333;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-item {
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.project-item h3 {
+    font-size: 22px;
+    color: #333;
+}
+
+.project-item p {
+    font-size: 16px;
+    color: #666;
+}
