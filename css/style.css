@@ -314,11 +314,23 @@ body{
 
 .edu-list div a {
     text-decoration: none;
-    color: #000;
+    color: #0ef;
     font-size: 12px;
     margin-top: 20px;
     display: inline-block;
 }
+
+.edu-left, .edu-right {
+    position: relative;
+    padding-bottom: 30px; /* To reserve space for the link */
+    transition: transform 0.3s ease; /* Add transform animation */
+}
+
+.edu-left:hover .read-more, .edu-right:hover .read-more {
+    opacity: 1; /* Show on hover */
+    text-decoration: underline;
+}
+
 
 .abt-res1{
     width: 100%;
