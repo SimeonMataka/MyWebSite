@@ -794,7 +794,7 @@ body{
 .contact-text h2 {
     font-size: 60px;
     line-height: normal;
-    text-align: center;
+    /* text-align: center; */
 
 }
 
@@ -803,6 +803,7 @@ body{
 }
 
 .contact-text h4 {
+    text-align: center;
     margin: 15px 0;
     color: rgb(228, 228, 228);
     font-size: 20px;
@@ -824,6 +825,7 @@ body{
     display: block;
     margin-bottom: 10px;
     letter-spacing: 2px;
+    text-align: center;
 }
 
 .contact-list i {
@@ -848,7 +850,7 @@ body{
     font-size: 20px;
     color: #0ef;
     text-decoration: none;
-    margin: 0px 15px 0px 0;
+    margin: 0px 15px 0px 0px;
     opacity: 1;
 }
 
@@ -856,6 +858,10 @@ body{
     background: #0ef;
     color: #000;
     box-shadow: 0 0 20px #0ef;
+}
+
+.contact-icons a{
+    margin-left: 50px;
 }
 
 
@@ -1756,7 +1762,7 @@ body{
         position: relative;
         /* left: -25%; */
         width: auto;
-        margin-left: -70px;
+        margin-left: -75px;
         margin-right: -60px;
     }
     
@@ -1874,11 +1880,16 @@ body{
 
     /*contact*/
     .contacts h2{
-        font-size: 50px;
+        font-size: 30px;
+        text-align: center;
     }
     .contact-list i{
-        font-size: 13px;
+        font-size: 10px;
         padding: 5px 5px 0 0;
+    }
+
+    .contact-icons a{
+        margin-left: 10px;
     }
     
     .top{
@@ -1896,6 +1907,7 @@ body{
         color: #000;
     }
 }
+
 
 
 .projects {
