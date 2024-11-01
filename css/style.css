@@ -1997,3 +1997,69 @@ body{
     color: #666;
 }
 
+
+/* Experience Detail Section Styles */
+
+.about-exp {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #12293a; /* Matches the color scheme */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about-exp-txt h2 {
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ededed;
+}
+
+.about-exp-txt h2 span {
+    color: #0ef; /* Accent color for the company name */
+}
+
+.about-exp-txt p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #c0c0c0;
+    text-align: justify;
+}
+
+.exp-styled-list {
+    padding-left: 20px;
+    list-style: none;
+}
+
+.exp-styled-list li {
+    font-size: 16px;
+    color: #ededed;
+    margin: 10px 0;
+    padding: 12px;
+    background-color: #081b29; /* Darker background for list items */
+    border-left: 4px solid #0ef; /* Accent line on the left */
+    border-radius: 4px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.exp-styled-list li:hover {
+    transform: translateX(5px); /* Slight movement on hover */
+    box-shadow: 0 2px 10px rgba(14, 239, 239, 0.3); /* Subtle glow effect */
+}
+
+/* Responsive Design for Experience Detail Section */
+@media (max-width: 768px) {
+    .about-exp {
+        padding: 20px;
+    }
+
+    .about-exp-txt h2 {
+        font-size: 28px;
+    }
+
+    .exp-styled-list li {
+        font-size: 14px;
+    }
+}
