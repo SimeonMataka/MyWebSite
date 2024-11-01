@@ -378,11 +378,34 @@ body{
 
 .exp-list div a {
     text-decoration: none;
-    color: #000;
+    color: #0ef;
     font-size: 12px;
     margin-top: 20px;
     display: inline-block;
 }
+
+.exp-left, .exp-right {
+    position: relative;
+    padding-bottom: 30px; /* To reserve space for the link */
+    transition: transform 0.3s ease; /* Add transform animation */
+}
+
+
+.read-more {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Fade in effect */
+}
+
+.exp-left:hover .read-more, .exp-right:hover .read-more {
+    opacity: 1; /* Show on hover */
+    text-decoration: underline;
+}
+
 
 .abt-res1{
     width: 100%;
