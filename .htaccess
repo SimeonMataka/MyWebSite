@@ -1,3 +1,4 @@
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.html [NC,L]
+RewriteRule ^([\w-]+)$ $1.html [L]}.html -f
+RewriteRule ^(.*)$ $1.html [L]
