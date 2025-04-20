@@ -1,0 +1,13 @@
+runtime: python39
+service: old-site
+instance_class: F1
+
+handlers:
+  - url: /(.*\.(css|js|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot))
+    static_files: \1
+    upload: .*\.(css|js|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot)
+    expiration: "30d"
+  - url: /.*
+    static_files: index.html
+    upload: index.html
+    expiration: "10m"
